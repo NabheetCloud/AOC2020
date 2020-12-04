@@ -26,8 +26,6 @@ fs.readFile("./2.txt", function (err, data) {
       ( parts[2].substring(range[0]-1,range[0]) != parts[1].substring(0, 1) &&
       parts[2].substring(range[1]-1,range[1]) == parts[1].substring(0, 1) ) 
     ){
-    // let length = Number(parts[2].split(parts[1].substring(0, 1)).length - 1);
-    // if (Number(range[0]) <= length && length <= Number(range[1])) {
       count += 1;
     }
   });
